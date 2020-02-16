@@ -1,0 +1,118 @@
+@charset "UTF-8";
+html {
+  background-image: url(Sources/background.jpg);
+}
+body {
+  margin: 0;
+}
+header {
+  height: 100px;
+  width: 100%;
+  background-size: cover;
+  background-position: center;
+  box-sizing: border-box;
+  background-repeat: repeat;
+  position: relative;
+}
+.top_bar {
+  background-color: black;
+  max-height: 50px;
+  justify-content: space-between;
+  align-items: center;
+  display: flex;
+}
+.logotype a {
+  font-size: 30px;
+  color: white;
+  align-items: center;
+  margin-top: -20px;
+  padding-left: 30px;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: bold;
+  text-decoration: none;
+}
+.logotype a:hover {
+  color: #F7BE81;
+  transition: 0.5s;
+} 
+.menu {
+  display: flex;
+  list-style: none;
+}
+.menuitem {
+  margin-right: 30px;
+}
+.menulink {
+  color: white;
+  text-decoration: none;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: bold;
+  font-size: 30px;
+}
+.menulink:hover { 
+  color: #F7BE81;
+  border-bottom: solid 3px #F7BE81;
+  transition: 0.5s;
+}
+.main {
+	display: flex;
+
+}
+.radio_all {
+	display: grid;	
+}
+.katalog {
+	width: 100%;
+	display: grid;
+	margin-left: 25%;
+    margin-right: 25%;
+}
+.product {
+	width: 600px;
+	height: 250px;
+	border: solid 1px black;
+	border-radius: 25px;
+	display: flex;
+	margin: 15px;
+	background-color: white; 
+  transition: 0.6s;
+}
+.product:hover {
+	box-shadow: 5px 5px 4px 3px black;
+	transition: 0.6s;
+}
+.deskip {
+	display: grid;
+}
+.product_image {
+	width: 180px;
+	height: 180px;
+	margin-top: 10px;
+	margin-left: 10px;
+}
+.btn2 {
+	width: 150px;
+	height: 40px;
+	background-color: #3AD354;
+	border-radius: 15px;
+	border: solid 2px black;
+	font-family: 'Bowlby One SC', cursive;
+	font-size: 20px;
+  transition: 0.3s;
+}
+.btn2 a {
+	color: white;
+	text-decoration: none;
+}
+.btn2:hover {
+	box-shadow: 2px 2px 3px black;
+	transition: 0.3s;
+}
+.p1 {
+	font-family: 'Bowlby One SC', cursive;
+	font-size: 25px;
+}
+.p_descript {
+	font-family: 'Bowlby One SC', cursive;
+	opacity: 40%;
+}
